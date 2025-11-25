@@ -7,7 +7,7 @@ class DashboardPage extends StatelessWidget {
       backgroundColor: Colors.grey[100],
       appBar: AppBar(
         title: Text(
-          'Seja Bem Vindo, Bruno',
+          'Finaças Track',
           style: TextStyle(fontWeight: FontWeight.bold),
         ),
         backgroundColor: Colors.deepPurple,
