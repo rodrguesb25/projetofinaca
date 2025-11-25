@@ -12,6 +12,10 @@ class App extends StatelessWidget {
         '/dashboard': (_) => DashboardPage(),
         '/transacoes': (_) => TransactionsPage(),
       },
+      theme: ThemeData(
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        useMaterial3: true,
+      ),
     );
   }
 }
