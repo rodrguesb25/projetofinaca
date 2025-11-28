@@ -29,7 +29,11 @@ class DashboardPage extends StatelessWidget {
           if (i == 1) {
             Navigator.pushNamed(context, '/transacoes');
           }
+          if (i == 2) {
+            Navigator.pushNamed(context, '/perfil');
+          }
         },
+
       ),
 
       // Conteúdo

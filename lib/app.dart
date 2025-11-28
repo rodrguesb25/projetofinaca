@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'views/dashboard_page.dart';
 import 'views/transactions_page.dart';
+import 'views/profile_page.dart';
 
 class App extends StatelessWidget {
   @override
@@ -11,6 +12,7 @@ class App extends StatelessWidget {
       routes: {
         '/dashboard': (_) => DashboardPage(),
         '/transacoes': (_) => TransactionsPage(),
+        '/perfil': (_) => ProfilePage() 
       },
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
